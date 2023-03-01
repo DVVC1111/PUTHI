@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #ce3232;
+  color: #EA4335;
   outline: none;
 }
 
@@ -118,7 +118,7 @@ a:hover, a:active, a:focus {
 }
 
 .section-btn {
-  background: #ce3232;
+  background: #EA4335;
   border: 0;
   border-radius: 100px;
   color: #ffffff;
@@ -132,17 +132,17 @@ a:hover, a:active, a:focus {
 
 .section-btn:hover,
 .section-btn:focus {
-  background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #34A853;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4285F4,#FBBC05,#34A853);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4285F4,#FBBC05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-color: transparent;
   color: #393939;
 }
 
 .overlay {
   background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #4285F4,#FBBC05,#34A853);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4285F4,#FBBC05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.7;
   position: absolute;
   width: 100%;
@@ -289,7 +289,7 @@ section {
 
 .custom-navbar .nav li a:hover {
   background: transparent;
-  color: #ce3232;
+  color: #EA4335;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -299,7 +299,7 @@ section {
 
 .custom-navbar .nav li.active > a {
   background-color: transparent;
-  color: #ce3232;
+  color: #EA4335;
 }
 
 .custom-navbar .navbar-toggle {
@@ -380,7 +380,7 @@ section {
 
 .home-info .section-btn:hover,
 .home-info .section-btn:focus {
-  background: #ce3232;
+  background: #EA4335;
   border-color: transparent;
   color: #ffffff;
 }
@@ -532,7 +532,7 @@ section {
   right: 0px;
   bottom: 0px;
   content: "";
-  background: #ce3232;
+  background: #EA4335;
   opacity: 0.8;
   transition: 0.5s;
 }
@@ -635,7 +635,7 @@ section {
 }
 
 .blog-thumb small {
-  color: #ce3232;
+  color: #EA4335;
   font-weight: 500;
   display: block;
 }
@@ -780,7 +780,7 @@ section {
 }
 
 #contact input[type='submit'] {
-  background: #ce3232;
+  background: #EA4335;
   border-radius: 100px;
   color: #ffffff;
   font-weight: 500;
@@ -871,7 +871,7 @@ section {
 }
 
 .social-icon li a:hover {
-  color: #ce3232;
+  color: #EA4335;
 }
 
 
