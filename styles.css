@@ -212,6 +212,27 @@ section {
     MENU              
 -----------------------------------------*/
 
+.navigation-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 780px) {
+
+  .navigation-logo img {
+    height: 40px;
+    margin-left: 15px;
+  }
+  
+}
+
+
 .custom-navbar {
   border: none;
   margin-bottom: 0;
