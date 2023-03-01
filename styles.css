@@ -500,6 +500,10 @@ section {
   margin-right: 0;
 }
 
+.work-info h3{
+  margin-bottom: 5%;
+}
+
 .work-thumb .work-info:after {
   position: absolute;
   top: 0px;
@@ -508,7 +512,7 @@ section {
   bottom: 0px;
   content: "";
   background: #ce3232;
-  opacity: 0;
+  opacity: 0.8;
   transition: 0.5s;
 }
 
@@ -518,8 +522,8 @@ section {
 
 .work-thumb .work-info h3,
 .work-thumb .work-info small {
-  transform: translateY(100%);
-  opacity: 0;
+  transform: translateY(30%);
+  opacity: 1;
   display: block;
   transition: 0.5s 0.2s;
   color: #ffffff;
@@ -563,7 +567,7 @@ section {
 }
 
 #blog .container .row{
-  margin-top: 5%;
+  margin-top:0;
   margin-bottom: 5%;
   padding-top: 5%;
 }
@@ -1043,6 +1047,16 @@ section {
     position: relative;
     bottom: 6em;
   }
+
+  .blog-thumb {
+    width: 80%;
+    
+    margin-left: 10%;
+  }
+
+  .blog-info{
+    padding: 5%;
+  }
   
 }
 
@@ -1242,6 +1256,7 @@ section {
 @media only screen and (max-width: 768px) {
   .partners {
     padding: 30px;
+
   }
 
 
