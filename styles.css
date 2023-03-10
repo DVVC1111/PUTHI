@@ -9,8 +9,9 @@ http://www.templatemo.com/tm-509-hydro
 
 body {
   background: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family:  'KH-Battambang','Poppins', sans-serif;
   overflow-x: hidden;
+
 
 }
 
@@ -471,7 +472,40 @@ section {
 
 
 
+.col-md-3{
 
+  margin-left: 0;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .col-md-3{
+    width: 40%;
+    margin-left: 10%;
+  }
+  
+}
+@media screen and (max-width: 780px) {
+
+  .col-md-3{
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  .col-md-3{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 20%;
+  }
+
+  
+}
 
 
 /*---------------------------------------
@@ -491,6 +525,7 @@ section {
 #work .container .row{
   margin-top: 0;
 }
+
 
 #work .container .row .col-md-3{
   margin-top: 0;
@@ -575,6 +610,8 @@ section {
 #schedule{
   background: wheat;
 }
+
+
 
 
 /*---------------------------------------
@@ -1083,74 +1120,82 @@ section {
 
 
 
-.team{
-  padding-top: 5%;
-  background-color: wheat;
+/* TEAM */
+
+.team-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 50px 0;
 }
 
-.team .container .row{
-  margin-top: 0%;
+.team-section h2 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
 }
 
-
-.col-md-3{
-
-  margin-left: 0;
-  margin-top: 5%;
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media screen and (max-width: 1000px) {
-
-  .col-md-3{
-    width: 40%;
-    margin-left: 10%;
-  }
-  
-}
-@media screen and (max-width: 780px) {
-
-  .col-md-3{
-    width: 100%;
-    margin-left: 10%;
-  }
-  .team-container .img-responsive{
-    padding-left: 25%;
-  }
-  
-}
-
-@media screen and (max-width: 500px) {
-
-  .col-md-3{
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 20%;
-  }
-
-  .team-container .img-responsive{
-    padding-left: 0%;
-  }
-  
-}
-
-
-/*---------------------------------------
-    TEAM             
------------------------------------------*/
-
-
-
-
-#team .work-thumb {
+.team-member {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
   overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
-.team-container .section-title{
-  margin-bottom: 0%;
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.team-member img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.member-info {
+  padding: 20px;
+}
+
+.member-info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.member-info p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .team-member {
+    width: 30%;
+    
+  }
+
+  .team-member h4{
+    font-size: smaller;
+  }
+
+  
+}
+
+
 
 
 
