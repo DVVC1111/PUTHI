@@ -1319,6 +1319,16 @@ section {
 
 
 
+
+/* Flag */
+.navbar-nav li a img {
+  width: 30px;
+  height: auto;
+  
+}
+
+
+
 @media only screen and (max-width: 768px) {
   .partners {
     padding: 30px;
